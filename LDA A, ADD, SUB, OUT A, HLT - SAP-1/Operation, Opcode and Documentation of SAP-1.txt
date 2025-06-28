@@ -1,0 +1,33 @@
+Operation--
+
+LDA Address -
+Load data to the accumulator from Memory Address(for example - 05H).
+
+ADD Address - 
+Load data from memory address(for example - 05H)
+to the B- Register. Then ADD the Content of Accumulator with
+the content of B-register and store the result in Accumulator.
+
+SUB Address -  
+Load data from memory Address(for example - 06H)
+to the B- Register. Then Perform OR operation between the 
+Content of Accumulator and the content of B-register and
+store the result in Accumulator.  
+
+OUT- 
+Mover the content of Accumulator to the Output Resister.
+then it will directly passed to output display.
+
+
+HLT -
+Stop the program. 
+
+Operation ------ Opcode Required --- 
+LDA Address      0H or 0000           
+ADD Address      1H or 0001           
+SUB Address       2H or 0010           
+OUT              EH or 1110           
+HLT              FH or 1111          
+
+Example is given in te excell shit 
+
